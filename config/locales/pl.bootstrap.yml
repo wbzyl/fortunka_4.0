@@ -1,0 +1,25 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+pl:
+
+  fortunes:
+    index:
+      new: "Nowa fortunka"
+    new:
+      title: "Nowa fortunka"
+
+  helpers:
+    actions: "Akcje"
+    links:
+      back: "Powrót"
+      edit: "Edycja"
+      cancel: "Wróć"
+      confirm: "Jesteś pewien?"
+      destroy: "Usuń"
+      new: "Nowa"
+    titles:
+      edit: "Edycja"
+      save: "Zapisz"
+      new: "Nowa"
+      delete: "Usuń"

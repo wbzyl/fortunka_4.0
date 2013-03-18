@@ -19,7 +19,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.0.1'
 
 gem "thin"
-gem "simple_form"
+gem "simple_form", '3.0.0.beta1'
 gem "less-rails"
 gem "therubyracer"
 

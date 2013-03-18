@@ -19,7 +19,7 @@ footer { margin-top: 2em; }
 table { table-layout: fixed; }
 
 col.id              { width:  5%; }
-col.quotation       { width: 45%; }
+col.quotation       { width: 50%; }
 col.source          { width: 15%; }
-col.created-at      { width: 20%; }
+col.created-at      { width: 15%; }
 col.actions-buttons { width: 15%; }

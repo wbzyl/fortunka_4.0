@@ -1,6 +1,6 @@
 <%- model_class = Fortune -%>
 
-<p><%= link_to t('.new', :default => t("helpers.links.new")),
+<p><%= link_to t('.new'),
             new_fortune_path,
             :class => 'btn btn-primary' %></p>
 
@@ -28,7 +28,7 @@
         <td><%= link_to fortune.id, fortune_path(fortune) %></td>
         <td><%= fortune.quotation %></td>
         <td><%= fortune.source %></td>
-        <td><%=l fortune.created_at %></td>
+        <td><%=l fortune.created_at, format: :short %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_fortune_path(fortune), :class => 'btn btn-mini' %>
