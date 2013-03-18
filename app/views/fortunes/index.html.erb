@@ -1,8 +1,18 @@
 <%- model_class = Fortune -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
-</div>
+
+<p><%= link_to t('.new', :default => t("helpers.links.new")),
+            new_fortune_path,
+            :class => 'btn btn-primary' %></p>
+
 <table class="table table-striped">
+  <colgroup>
+    <col class="id">
+    <col class="quotation">
+    <col class="source">
+    <col class="created-at">
+    <col class="actions-buttons">
+  </colgroup>
+
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
@@ -32,7 +42,3 @@
     <% end %>
   </tbody>
 </table>
-
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_fortune_path,
-            :class => 'btn btn-primary' %>

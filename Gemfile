@@ -31,6 +31,7 @@ group :development, :test do
   gem "rspec-rails"
   gem "quiet_assets"
   gem "hirb"
+  gem "faker"
 end
 
 group :test do
