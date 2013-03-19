@@ -35,6 +35,7 @@ group :development, :test do
   gem "quiet_assets"
   gem "hirb"
   gem "faker"
+# gem "rb-readline"
 end
 
 group :test do
