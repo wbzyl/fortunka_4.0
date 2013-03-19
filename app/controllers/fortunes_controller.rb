@@ -3,6 +3,7 @@ class FortunesController < ApplicationController
 
   # GET /fortunes
   # GET /fortunes.json
+  # GET /fortunes.csv
   def index
     @fortunes = Fortune.all
   end
@@ -10,6 +11,11 @@ class FortunesController < ApplicationController
   # GET /fortunes/1
   # GET /fortunes/1.json
   def show
+    # respond_to do |format|
+    #   format.html
+    #   format.json
+    #   format.csv  { send_data @fortune.to_csv }
+    # end
   end
 
   # GET /fortunes/new

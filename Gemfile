@@ -23,6 +23,9 @@ gem "simple_form", '3.0.0.beta1'
 gem "less-rails"
 gem "therubyracer"
 
+gem "redcarpet"
+gem "pygments.rb"
+
 group :assets do
   gem "twitter-bootstrap-rails"
 end
